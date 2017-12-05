@@ -21,10 +21,9 @@ pipeline {
                 }     
             }        
         }
-        stage('Deploy - Staging1') {            
+        stage('Deploy - Staging1') {
             steps {                
-                    sh "docker run -d --name test3 hello-world"
-                }    
+                    sh "docker run -d --name test3 hello-world"   
             }        
         } 
     }

@@ -18,7 +18,6 @@ pipeline {
         }
         stage('Deploy - Staging1') {            
             steps {                
-                docker run -d --name test3 10.186.122.166:5000/centos7-oracle-jdk7
               
             }        
         } 

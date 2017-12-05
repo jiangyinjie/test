@@ -16,11 +16,6 @@ pipeline {
                 }     
             }        
         }
-        stage('Deploy - Staging1') {            
-            steps {                
-              
-            }        
-        } 
     }
     post {        
         always {            
